@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    
     background-size: 280px 280px;
 }
 
@@ -677,7 +677,24 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
+}
+
+.commentairesAgence {
+
+    font-style: italic;
+    font-size: 2rem;
+}
+
+
+.auteurCommentaire {
+    font-size: 2rem;
+    
+}
+
+.infoTravaux {
+    font-size: 2.2rem;
+    padding: 0 27%;
 }
 
 .tight-width-whitespace {
@@ -726,6 +743,10 @@ h1 {
     color: #333333!important;
 }
 
+.TitreInfo {
+    padding: 0 19%;
+}
+
 h4 {
     color: #333333!important;
 }
@@ -753,7 +774,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 40px 40px 40px 40px;
 }
 
@@ -813,12 +834,13 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
+.col-sm-12 {
+    padding-top: 5%;
 }
 
 .bg-banniere {
     background-image: url("img/agence-la-panthere.jpg");
+    
 }
 
 .bg-presentation {
