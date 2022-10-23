@@ -958,7 +958,7 @@ h4 {
         background: rgba(0, 0, 0, .08);
     }
 
-    .img-responsive {
+    img, .img-responsive {
 
         display: initial;
 
