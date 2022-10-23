@@ -866,6 +866,9 @@ h4 {
     .nav-center.navbar .nav {
         max-width: 100%
     }
+    .col-sm-12 {
+        float: initial;
+    }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
@@ -953,6 +956,12 @@ h4 {
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
+    }
+
+    .img-responsive {
+
+        display: initial;
+
     }
     .dropdown .dropdown a .caret {
         float: none;
