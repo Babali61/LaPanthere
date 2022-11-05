@@ -283,6 +283,14 @@ a:hover {
     padding-left: 0;
 }
 
+a:focus {
+    border: 1px solid black;
+}
+
+button:focus {
+    border: 1px solid black;
+}
+
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -802,15 +810,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #A82400;
+    background-color: #F3976C;
 }
 
 .tc-white {
     color: #F3976C!important;
 }
 
-.color-white {
-    color: #FFF !important;
+.color-black {
+    color: rgb(0, 0, 0) !important;
 }
 
 .color-red {
@@ -818,13 +826,14 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #A82400;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: #000000!important;
+
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .ltc-white {
@@ -833,6 +842,12 @@ h4 {
 
 .ltc-white:hover {
     color: #cccccc!important;
+}
+
+.backgroundWhite {
+    background-color: rgba(0, 0, 0, 0.39);
+    border-radius: 25px;
+    
 }
 
 .ltc-atomic-tangerine {
